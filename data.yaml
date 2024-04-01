@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['AND', 'NAND', 'NOR', 'NOT', 'OR', 'XNOR', 'XOR']
+
+roboflow:
+  workspace: personal-tatwd
+  project: dlc-od
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-tatwd/dlc-od/dataset/2
